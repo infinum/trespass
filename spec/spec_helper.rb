@@ -16,9 +16,9 @@ system("#{command} > /dev/null 2>&1")
 url = "postgres:#{TEST_DATABASE_NAME}"
 ActiveRecord::Base.establish_connection(url)
 
-require File.dirname(__FILE__) + '/schema.rb'
-require File.dirname(__FILE__) + '/models.rb'
-require File.dirname(__FILE__) + '/user_search.rb'
+require_relative 'schema'
+require_relative 'models'
+require_relative 'user_search'
 
 RSpec.configure do |config|
   config.before(:suite) do
