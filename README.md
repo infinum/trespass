@@ -1,24 +1,14 @@
 # Trespass
 
-Test your custom SQL for potential security vulnerabilities in Rails apps. Under development.
+Test your custom SQL for potential security vulnerabilities in Rails apps.
 
 ```ruby
 specify do
-  expect { |user_input| UserSearch.new(user_input).call }.not_to be_sql_safe
+  expect { |user_input| UserSearch.new(user_input).call }.to be_sql_safe
 end
 ```
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'trespass'
-```
-
-And then execute:
-
-    $ bundle
+Under development.
 
 ## License
 
