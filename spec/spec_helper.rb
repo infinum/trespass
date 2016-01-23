@@ -5,10 +5,10 @@ require 'pg'
 require 'active_record'
 require 'database_cleaner'
 
-require 'dirty_deed'
-require 'dirty_deed/injection_matcher'
+require 'trespass'
+require 'trespass/injection_matcher'
 
-TEST_DATABASE_NAME = 'dirty_deed_database'
+TEST_DATABASE_NAME = 'trespass_database'
 
 command = "psql  -c \"create database #{TEST_DATABASE_NAME};\" -U postgres"
 system("#{command} > /dev/null 2>&1")

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'dirty_deed/version'
+require 'trespass/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'dirty_deed'
-  spec.version       = DirtyDeed::VERSION
+  spec.name          = 'trespass'
+  spec.version       = Trespass::VERSION
   spec.authors       = ['Damir Svrtan']
   spec.email         = ['damir.svrtan@gmail.com']
 
