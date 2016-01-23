@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Test your non ActiveRecord Queries for SQL Injections'
   spec.description   = 'Test your non ActiveRecord Queries for SQL Injections'
-  spec.homepage      = 'TODO: Put your gems website or public repo URL here.'
+  spec.homepage      = 'https://github.com/infinum/trespass'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
