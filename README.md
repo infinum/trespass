@@ -1,5 +1,8 @@
 # Trespass
 
+[![Build Status](https://travis-ci.org/infinum/trespass.svg?branch=master)](https://travis-ci.org/infinum/trespass)
+[![Code Climate](https://codeclimate.com/github/infinum/trespass/badges/gpa.svg)](https://codeclimate.com/github/infinum/trespass)
+
 Test your custom SQL for potential security vulnerabilities in Rails apps.
 
 ```ruby
